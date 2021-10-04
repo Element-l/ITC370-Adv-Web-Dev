@@ -1,0 +1,82 @@
+body{
+    background-color: #cce2eb;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    font-family:impact;
+    justify-content: space-around;
+    background-color:rgb(193, 197, 209);
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.navbox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    outline: #453f68 solid 5px;
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.coolimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.description {
+    margin:auto;
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 4%;
+}
+
+.timetable {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 20px;
+}
+
+.timetable th, tr {
+    outline: black solid 1px;
+}
+
+.timetable thead{
+    background-color: rgb(124, 124, 124);
+}
+.timetable tbody{
+    background-color: rgb(180, 180, 180);
+}
+
+.classname{
+    color:black;
+    font-size: 20px
+}
+.classtime{
+    color: #3f3f3f;
+    font-size: 16px;
+}
+
+.classinstructor{
+    color: #3f3f3f;
+    font-size: 16px;
+    font-style: italic;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+a:hover {
+    color:#453f68;
+}

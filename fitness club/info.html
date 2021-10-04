@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="test/html;charset=utf-8" http-equiv="Content-Type">
+        <title> Fit for Fun Fitness Club </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class=header>
+            <h1 class=logo>Fit For Fun Fitness Club</h1>
+            <ul class=navbox>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </div>
+        <div>
+            <form action="thankyou.html" method="GET">
+                <fieldset>
+                    <div>
+                        <label for="firstname">First name:</label>
+                        <input type="text" id="firstname" name="firstname"><br><br>
+                    </div>
+                    <div>
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" name="lastname"><br><br>
+                    </div>
+                    <div>
+                        <label for="email">Email address:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                    </div>
+                    <div>
+                        <label for="phone">Phone number:</label>
+                        <input type="phone" id="phone" name="phone"><br><br>
+                    </div>
+                    <div>
+                        <label for="contact">Best method of contact:</label>
+                        <select id="contact" name="contact">
+                            <option value="Email">Email</option>
+                            <option value="Phone">Phone</option>
+                            <option value="Owl">Owl</option>
+                            <option value="Telepathy">Telepathy</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="class1" name="class1" value="Cross Training">
+                        <label for="class1">Cross Training</label>
+
+                        <input type="checkbox" id="class2" name="class2" value="Sprint">
+                        <label for="class2">Sprint</label>
+
+                        <input type="checkbox" id="class3" name="class3" value="Spin">
+                        <label for="class3">Spin</label>
+
+                        <input type="checkbox" id="class4" name="class4" value="BodyPump">
+                        <label for="class4">BodyPump</label>
+
+                        <input type="checkbox" id="class5" name="class5" value="BodyCombat">
+                        <label for="class5">BodyCombat</label>
+
+                        <input type="checkbox" id="class6" name="class6" value="Step Interval">
+                        <label for="class6">Step Interval</label>
+
+                        <input type="checkbox" id="class7" name="class7" value="Advanced Cross Training">
+                        <label for="class7">Advanced Cross Training</label>
+
+                        <input type="checkbox" id="class8" name="class8" value="MixxedFIT">
+                        <label for="class8">MixxedFIT</label>
+
+                        <input type="checkbox" id="class9" name="class9" value="Zumba">
+                        <label for="class9">Zumba</label>
+                    </div>
+                    <div>
+                       <p>Select which time of day you would like to participate.</p> 
+                       <input type="radio" id="AM" name="time" value="AM">
+                       <label for="AM">AM</label>
+
+                       <input type="radio" id="AM" name="time" value="PM">
+                       <label for="PM">PM</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form> 
+        </div>
+    </body>
+    <footer>
+        <p>Fit For Fun Fitness Club: Desperately trying to fill space on the screen. 10/1/21</p>
+    </footer>
+</html>
