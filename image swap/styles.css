@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainbox {
+  background-color: #1c1c1c;
+  color: white;
+  height: 100%;
+  padding: 30px;
+}
+
+#mainimage {
+  padding-top: 1em;
+  width: 60%;
+}
+
+#thumbnailbox {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+img {
+  width: 100%;
+}
