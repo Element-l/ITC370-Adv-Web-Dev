@@ -15,13 +15,16 @@ function makeThumbnails(start) {
 }
 //function to add hover/selection functionality to thumbnails
 function queryThumbnail(){
+  //selecting all items with the thumbnail class
   document.querySelectorAll('.thumbnail').forEach(item => {
+    //adding css on hover
     item.addEventListener('mouseover', function() {
       item.setAttribute('style', 'opacity: 0.3; outline: white solid 5px;')
     })
     item.addEventListener('mouseout', function() {
       item.setAttribute('style', 'opacity: 1')
     })
+    //changing main image to selected thumbnail
     item.addEventListener('click', function() {
       currentImg = item.getAttribute('src')
       $mainimage.innerHTML = `<img src='${currentImg}'>`
