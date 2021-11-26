@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(27, 27, 27);
+}
+
+.stoplight {
+  width: 100px;
+  height: 200px;
+}
+
+.container {
+  margin-top: 2em;
+  padding-bottom: 4em;
+  width: 1000px;
+  background-color: #272727;
+}
+
+#racer1 {
+  
+}
