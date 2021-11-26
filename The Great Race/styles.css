@@ -2,18 +2,51 @@ body {
   background-color: rgb(27, 27, 27);
 }
 
-.stoplight {
+#stoplight {
   width: 100px;
   height: 200px;
+}
+
+#racer1 {
+  position:relative;
+  margin-top: 1em;
+}
+
+#racer2 {
+  position:relative;
+  margin-top: 1em;
+}
+
+#racer3 {
+  position:relative;
+  margin-top: 1em;
+}
+
+#racer4 {
+  position:relative;
+  margin-top: 1em;
+}
+
+#winnerDiv {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+  background-color: rgb(24, 24, 24);
+  border: 5px solid rgb(143, 143, 143) ;
+}
+
+#winnerImg {
+  height: 300px;
+  width: 300px;
 }
 
 .container {
   margin-top: 2em;
   padding-bottom: 4em;
   width: 1000px;
+  height: 900px;
   background-color: #272727;
-}
-
-#racer1 {
-  
 }
